@@ -22,7 +22,7 @@ class NewsApp:
         self.listbox = tk.Listbox(root, width=100, height=20)
         self.listbox.pack(pady=20)
 
-        self.api_key = "835dd37ded0e4cbdaf600af4d6664d3b"  # Replace with your News API key
+        self.api_key = "News API key"
 
     def fetch_news(self, query):
         url = f"https://newsapi.org/v2/everything?q={query}&apiKey={self.api_key}"
